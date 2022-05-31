@@ -9,7 +9,7 @@ const prodConfig = {
   mode: "production",
   output: {
     filename: "[name].[contenthash].js",
-    publicPath: "/helloVue/latest/",
+    publicPath: "/helloVue/dist/",
   },
   plugins: [
     new ModuleFederationPlugin({
