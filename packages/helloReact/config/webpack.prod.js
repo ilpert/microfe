@@ -8,8 +8,9 @@ const domain = process.env.VERCEL_URL;
 const prodConfig = {
   mode: "production",
   output: {
-    filename: "[name].[contenthash].js",
-    publicPath: "/helloReact/dist/",
+    // filename: "[name].[contenthash].js",
+    publicPath: domain,
+    uniqueName: "helloReact",
   },
   plugins: [
     new ModuleFederationPlugin({
