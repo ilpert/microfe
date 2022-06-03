@@ -2,9 +2,6 @@ const { VueLoaderPlugin } = require("vue-loader");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  future: {
-    webpack5: false,
-  },
   resolve: {
     extensions: [".js", ".vue"],
   },
