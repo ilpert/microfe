@@ -1,9 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    future: {
-        webpack5: false,
-      },
     module: {
         rules: [
             {
