@@ -16,8 +16,8 @@ const prodConfig = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        helloReact: `helloReact@https://helloreact-odnazsx76-ilpert.vercel.app/remoteEntry.js`,
-        helloVue: `helloVue@https://hellovue-pk4f6bf4b-ilpert.vercel.app/remoteEntry.js`,
+        helloReact: `helloReact@https://helloreact-kappa.vercel.app/remoteEntry.js`,
+        helloVue: `helloVue@https://hellovue-six.vercel.app/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
