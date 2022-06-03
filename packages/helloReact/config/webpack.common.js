@@ -1,5 +1,8 @@
 module.exports = {
     module: {
+        future: {
+            webpack5: false,
+          },
         rules: [
             {
                 test: /\.m?js$/,
