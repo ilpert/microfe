@@ -17,7 +17,7 @@ const prodConfig = {
       name: "container",
       remotes: {
         helloReact: `helloReact@https://helloreact-odnazsx76-ilpert.vercel.app/remoteEntry.js`,
-        helloVue: `helloVue@${domain}/helloVue/dist/remoteEntry.js`,
+        helloVue: `helloVue@https://hellovue-pk4f6bf4b-ilpert.vercel.app/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
